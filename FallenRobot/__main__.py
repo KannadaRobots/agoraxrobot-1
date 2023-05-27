@@ -202,7 +202,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgIAAxkBAAIM9WRrG6z1-W5yFZwITPG8CixorMNpAAJJAANBtVYMYBNDpjyPw4AvBA"
+                "CAACAgUAAxkBAAIQt2RyNmYM7BDQ3mfmdtDAcAT3fcOMAALTCQACvkBgVi3UZivccWUeLwQ"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
@@ -352,8 +352,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
             f"\n*➻ 🦋 ᴍʏ ʙɪʀᴛʜ : »* {uptime}"
-            f"\n*➻ 🦋 ᴍʏ ғᴀɴs : »* 60{sql.num_users()}"
-            f"\n*➻ 🦋 ᴍʏ ᴛᴇʀʀɪᴛᴏʀɪᴇs : »* 10{sql.num_chats()}"
+            f"\n*➻ 🦋 ᴍʏ ғᴀɴs : »* 45698{sql.num_users()}"
+            f"\n*➻ 🦋 ᴍʏ ᴛᴇʀʀɪᴛᴏʀɪᴇs : »* 5188{sql.num_chats()}"
             "\n────────────────────"
             "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
