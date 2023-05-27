@@ -90,10 +90,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🦋 ɢᴄ ᴄᴏɴᴛʀᴏʟ 🦋", callback_data="help_back"),
-        InlineKeyboardButton(text="🦋 ᴠᴄ ᴄᴏɴᴛʀᴏʟ 🦋", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="🦋 ᴀᴅᴠᴀɴᴄᴇ 🦋", callback_data="fallen_"),
     ],
     [
-        InlineKeyboardButton(text="🦋 ᴀᴅᴠᴀɴᴄᴇ 🦋", callback_data="fallen_"),
+        InlineKeyboardButton(text="🦋 ᴏᴡɴᴇʀ 🦋", callback_data="https://t.me/II_SHIV_SINGH_II"),
+        InlineKeyboardButton(text="🦋 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🦋", callback_data="https://t.me/mr_agora"),
     ],
 ]
 
